@@ -109,19 +109,21 @@ Use CrossValidator to tune models and compare their AUC performance.
 ```
 Tuning LogisticRegression...
 LogisticRegression Best Model Accuracy (AUC): 0.7187981510015414
-
+Best Params for LogisticRegression: regParam=0.01, maxIter=20
 
 Tuning DecisionTree...
 DecisionTree Best Model Accuracy (AUC): 0.7266949152542372
-
+Best Params for DecisionTree: maxDepth=10
 
 Tuning RandomForest...
 RandomForest Best Model Accuracy (AUC): 0.8084553158705701
-
+Best Params for RandomForest: maxDepth=15
+numTrees=50
 
 Tuning GBT...
 GBT Best Model Accuracy (AUC): 0.7432588597842834
-
+Best Params for GBT: maxDepth=10
+maxIter=20
 
 ```
 ---
